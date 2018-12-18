@@ -58,7 +58,7 @@ Drop all six folders, each with the three settings files, into the folder named 
 Carefully follow the instructions found here:  https://github.com/PTMagicians/PT-Magic/wiki/Setup-Guide, but __SKIP STEPS 5, 6 and 9__ -- we will take care of those steps now.
 
 ### 9. Download the settings.analyzer.json on this github repository
-Download the latest release of the settings.analyzer.json found on this here:  https://github.com/HojouFotytu/PT-Settings-Switcher/releases and place it in your PTMagic folder.
+Download the latest release of the settings.analyzer.json from above, and place it in your PTMagic folder.
 
 ### 10. Enter the names of your settings
 Open the settings.analyzer.json with Notepad++ (https://notepad-plus-plus.org/).  Take your time, and carefully edit "File": so the name exactly matches each of your PAIRS, DCA, and INDICATOR files.  Do this for every global setting.   Also make sure the "SettingName" exactly matches the names of the folders in which the settings are contained.  Remember, at the very least you __must have a folder named DEFAULT__.   
