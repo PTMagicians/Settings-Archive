@@ -1,0 +1,217 @@
+/*
+     Settings By:       Discord @stevenshizzle#8860 / Telegram @stevenshizzle
+     Contributors:      @smoochy#6365, @Fransenson#5625, @Samueldc
+     Tested With:       PTMagic 1.5.1 / PT 1.2.6.25
+     Last Update:       11 APR 2018
+     Release Notes:     Changed Downtrend to buy using LOWBB
+     URL:               https://github.com/stevenshizzleh/pt_disciplined_trading
+*/
+
+{
+  "AnalyzerSettings": {
+    "MarketAnalyzer": {
+      "StoreDataMaxHours": 24,
+      "IntervalMinutes": 2,
+      "ExcludeMainCurrency": true,
+      "MarketTrends": [
+        {
+          "Name": "Exchange1h",
+          "Platform": "Exchange",
+          "MaxMarkets": 50,
+          "TrendMinutes": 60,
+          "IgnoredMarkets": "BNBETH, ICXETH, ADAETH, CTRETH"
+        },
+        {
+          "Name": "Exchange2h",
+          "Platform": "Exchange",
+          "MaxMarkets": 50,
+          "TrendMinutes": 120,
+          "IgnoredMarkets": "BNBETH, ICXETH, ADAETH, CTRETH"
+        },
+        {
+          "Name": "Exchange3h",
+          "Platform": "Exchange",
+          "MaxMarkets": 50,
+          "TrendMinutes": 180,
+          "IgnoredMarkets": "BNBETH, ICXETH, ADAETH, CTRETH"
+        },
+        {
+          "Name": "Exchange24h",
+          "Platform": "Exchange",
+          "MaxMarkets": 50,
+          "TrendMinutes": 1440,
+          "IgnoredMarkets": "BNBETH, ICXETH, ADAETH, CTRETH"
+        }
+      ]
+    },
+    "GlobalSettings": [
+      {
+        "SettingName": "VeryBearish",
+        "TriggerConnection": "AND",
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange3h",
+            "MaxChange": -2.50
+          }
+        ],
+        "PairsProperties": {
+          "ALL_sell_only_mode": true,
+          "ALL_dca_enabled": false
+        },
+        "DCAProperties": {
+          "sell_value_OFFSETPERCENT": -25.00
+        },
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "Bearish",
+        "TriggerConnection": "AND",
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange3h",
+            "MaxChange": -1.00,
+            "MinChange": -2.50
+          }
+        ],
+        "PairsProperties": {
+          "ALL_sell_value_OFFSETPERCENT": -10,
+          "ALL_trailing_profit": 0.50
+        },
+        "DCAProperties": {
+          "sell_value_OFFSETPERCENT": -12.50,
+          "rebuy_timeout": 2880
+        },
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "VeryBullish",
+        "TriggerConnection": "AND",
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange3h",
+            "MinChange": 2.75
+          },
+          {
+            "MarketTrendName": "Exchange1h",
+            "MinChange": -2.00
+          }
+        ],
+        "PairsProperties": {
+          "ALL_sell_value_OFFSETPERCENT": 66.66
+        },
+        "DCAProperties": {
+          "sell_value": 4.00,
+          "trailing_profit": 0.75
+        },
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "Bullish",
+        "TriggerConnection": "AND",
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange3h",
+            "MaxChange": 2.75,
+            "MinChange": 1.50
+          },
+          {
+            "MarketTrendName": "Exchange1h",
+            "MinChange": -2.00
+          }
+        ],
+        "PairsProperties": {
+          "ALL_sell_value_OFFSETPERCENT": 33.33
+        },
+        "DCAProperties": {
+          "sell_value": 3.50,
+          "trailing_profit": 0.66
+        },
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "Default",
+        "Triggers": [],
+        "PairsProperties": {
+          "File": "PAIRS.PROPERTIES"
+        },
+        "DCAProperties": {
+          "File": "DCA.PROPERTIES"
+        },
+        "IndicatorsProperties": {
+          "File": "INDICATORS.PROPERTIES"
+        }
+      }
+    ],
+    "SingleMarketSettings": [
+      {
+        "SettingName": "NewCoin",
+        "TriggerConnection": "OR",
+        "StopProcessWhenTriggered": true,
+        "Triggers": [
+          {
+            "AgeDaysLowerThan": 14
+          }
+        ],
+        "OffTriggers": [],
+        "PairsProperties": {
+          "ALL_sell_only_mode": true
+        },
+        "DCAProperties": {},
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "PumpProtection",
+        "TriggerConnection": "OR",
+        "StopProcessWhenTriggered": true,
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange3h",
+            "MarketTrendRelation": "Absolute",
+            "MinChange": 18.0
+          },
+          {
+            "MarketTrendName": "Exchange24h",
+            "MarketTrendRelation": "Absolute",
+            "MinChange": 20.0
+          }
+        ],
+        "OffTriggers": [],
+        "PairsProperties": {
+          "ALL_sell_only_mode": true,
+          "ALL_buy_value": 99.99
+        },
+        "DCAProperties": {},
+        "IndicatorsProperties": {}
+      },
+      {
+        "SettingName": "Downtrend",
+        "TriggerConnection": "OR",
+        "StopProcessWhenTriggered": true,
+        "Triggers": [
+          {
+            "MarketTrendName": "Exchange1h",
+            "MarketTrendRelation": "Absolute",
+            "MaxChange": -1.00
+          },
+          {
+            "MarketTrendName": "Exchange2h",
+            "MarketTrendRelation": "Absolute",
+            "MaxChange": -1.00
+          },
+          {
+            "MarketTrendName": "Exchange3h",
+            "MarketTrendRelation": "Absolute",
+            "MaxChange": -1.00
+          }
+        ],
+        "OffTriggers": [],
+        "PairsProperties": {
+          "ALL_buy_strategy": "LOWBB",
+          "ALL_buy_value": -20.00
+        },
+        "DCAProperties": {},
+        "IndicatorsProperties": {}
+      }
+    ]
+  }
+}
