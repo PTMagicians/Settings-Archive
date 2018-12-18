@@ -86,8 +86,15 @@ You can download that file here: https://github.com/HojouFotytu/PT-Settings-Swit
 	  // DEFAULT_C_buy_strategy
 	  // DEFAULT_C_buy_value
 	  // DEFAULT_C_buy_value_limit
-	  // You also might need to disable other strategies that exist in your 
-	  // settings with DEFAULT_D_buy_strategy = Disabled.
+	  // DEFAULT_D_buy_strategy
+	  // DEFAULT_D_buy_value
+	  // DEFAULT_D_buy_value_limit
+	  // DEFAULT_E_buy_strategy
+	  // DEFAULT_E_buy_value
+	  // DEFAULT_E_buy_value_limit
+	  //
+	  // You also might need to disable any other strategies that exist in your 
+	  // settings with DEFAULT_X_buy_strategy = Disabled
 	  //
 	  // That being said, it is possible to get creative and alter anything you like
 	  // so that more sophisticated coin-specific settings can be applied to extend
