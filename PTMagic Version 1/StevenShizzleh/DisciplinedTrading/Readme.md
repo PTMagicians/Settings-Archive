@@ -1,5 +1,12 @@
+#  Archived Settings - PTM Version 1
+## Educational Purposes ONLY
+These settings will longer work with PTMagic version 2.  
+However, they can still provide insight and ideas when developing your own PTMagic settings.
+
+---
+---
+
 # Background and Settings
-[Download the settings here.](https://github.com/stevenshizzleh/pt_disciplined_trading/releases)
 ## Thought Process Behind Settings
 1. **Buy on evidence of good behavior.** I.E. EMASPREAD on a longer outlook (1 hour candles). When PT 2.0 comes out, look forward to buying on RSI as an indicator.
 
