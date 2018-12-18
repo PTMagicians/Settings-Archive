@@ -3,8 +3,8 @@ A walk-through to help you switch between your saved Profit Trailer settings, ba
 
 
 ## Requirements: 
- - Copies of your your custom settings from Profit Trailer
- - PTMagic
+ - Copies of your your custom settings from Profit Trailer v2
+ - PTMagic v2
 ---
 
 ### Profit Trailer Settings
