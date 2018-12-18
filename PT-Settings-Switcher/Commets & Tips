@@ -1,0 +1,102 @@
+
+These are SOME of the comments from the settings.analyzer.json file found on this repository.  
+You can download that file here: https://github.com/HojouFotytu/PT-Settings-Switcher/releases/tag/0.9.2  
+
+
+// ==================================================
+// ================================  MARKET TRENDS
+// ==================================================
+
+      IngoredMarkets
+      // Some coins that have been de-listed, still return a value
+      // through the Binance API.  Ignore these to avoid corrupt trend data in PTMagic.
+      // See issue #583 at https://github.com/Legedric/ptmagic/issues/583
+      // Until this issue is resolved, you should add any other other coins to
+      // this list that return a value of "NaN" or "∞" in the market analyzer.
+      // If you are trading in a market other than BTC, you should change
+      // the coin pair accordingly.
+      
+      
+// ================================================
+// =============================  GLOBAL SETTINGS  
+// ================================================
+
+	  // Rather than adjusting each pairs/DCA file individually, you can make all
+	  // your changes in PTMagics Global Settings.  It will override any settings 
+	  // in the individual settings pairs/dca/indicator files. You may also 
+	  // include any additional lines as you see fit, as long as they are valid Profit Trailer parameters. 
+          //	  
+	  // Keep in mind, certain changes may significantly alter the intended functionality 
+	  // and approach built into the base strategies.  The settings included here by default 
+	  // are to allow you to easily adjust your money mangement preferences according to 
+	  // your own trading style and risk tolerance.  
+
+
+	  // REVIEW THE FOLLOWING VALUES CAREFULLY to fit your individual level of risk,
+	  // and avoid over-extending yourself! You MUST adjust these for EVERY global setting.
+	  //         intial_cost(_percentage)
+	  //         keep_balance (_percentage)
+	  //         max_trading_pairs
+          // 
+          // If using keep_balance, keep_balance_percentage must be set to 0
+	  // If using keep_balance_percentage, keep_balance must be set to 0
+	  // If using initial_cost, initial_cost_percentage must be set to 0
+	  // If using initial_cost_percentage, initial_cost must be set to 0
+	  //         
+          // For details on how the all the various settings work, take your time and study
+	  // both the Profit Trailer and PTMagic wikis.
+	  //
+	  // REMEMBER! When using initial_cost_percentage, the calculation is a percentage
+	  // of what remains AFTER deducting the value of keep_balance.  Thus, changing
+	  // the value of keep_balance can increase or decrease the result of 
+	  // initial_cost_percentage.
+	  // 
+	  // ALL of the values used for market trend analysis are for example only, and may
+	  // not be the best values to fit your trading style.  Doing your own testing and 
+	  // analysis before going live is strongly encouraged.	  
+
+
+	  // To specify a WHITELIST of coins, use enabled_pairs.  Replace "ALL" with your list of coins. 
+	  // eg., "enabled_pairs": "ETH, XRP, XLM, ZRX"  You must do this for every global setting.
+    
+    
+// ================================================
+// ======================  COIN SPECIFIC SETTINGS 
+// ================================================
+
+	  // Similar to the Global Settings you may add any additional Profit Trailer parameters
+	  // you want to the single-market settings.   These will only be applied to
+	  // coins which meet the specified trend conditions.  Keep in mind, only settings that are 
+	  // designated "coin-specific" by Profit Trailer, will function correctly.
+	  // 
+	  // It is advised that you not alter any single buy or sell parameters,
+	  // without considering how it will affect all of your global settings.
+	  // If your different settings are using different stategies, eg., one uses EMACROSS
+	  // and another uses EMAGAIN, a change here to buy_value and trail_value
+	  // could have potentially unintended consequences for the different settings files.
+	  // If you did want to change the complete buy or sell strategy for specific coins,
+	  // you would need to include the entire strategy -- for example:
+	  //
+	  // DEFAULT_A_buy_strategy
+	  // DEFAULT_A_buy_value
+	  // DEFAULT_A_buy_value_limit
+	  // DEFAULT_B_buy_strategy
+	  // DEFAULT_B_buy_value
+	  // DEFAULT_B_buy_value_limit
+	  // DEFAULT_C_buy_strategy
+	  // DEFAULT_C_buy_value
+	  // DEFAULT_C_buy_value_limit
+	  // You also might need to disable other strategies that exist in your 
+	  // settings with DEFAULT_D_buy_strategy = Disabled.
+	  //
+	  // That being said, it is possible to get creative and alter anything you like
+	  // so that more sophisticated coin-specific settings can be applied to extend
+	  // your strategy in new and interesting ways.  This is where the true power 
+	  // of PTM lies -- it's ability to customize an entire buy and sell strategy 
+	  // on a per-coin basis, regardless of global market conditions.  However this 
+	  // would be for more advanced users who are intimately familiar with Profit
+	  // Trailer, and PTMagic.
+  
+    
+    
+    
