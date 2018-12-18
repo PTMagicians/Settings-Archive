@@ -2,10 +2,10 @@
   "AnalyzerSettings": {
     "MarketAnalyzer": {
       "StoreDataMaxHours": 168,
-	  // This is how much historical data you wish to store locally.  You can increase
+      // This is how much historical data you wish to store locally.  You can increase
       // this if you decide to analyze the market or specific coins over longer
       // time-frames.
-	  // 30 days = 720   15 days = 360  7 days = 168
+      // 30 days = 720   15 days = 360  7 days = 168
       "IntervalMinutes": 1,
       "ExcludeMainCurrency": true,
 	//
@@ -99,7 +99,7 @@
 	  // your changes here to override the values for all settings.  You may also 
 	  // include any additional lines to change any of PT's variables 
 	  // as you see fit. 
-      //	  
+          //	  
 	  // Keep in mind, certain changes may significantly alter the intended functionality 
 	  // and approach built into the base strategies.  The values already listed here 
 	  // are included  so you can adjust your money mangement preferences according to 
@@ -404,7 +404,7 @@
         }
       }
     ],
-      // ================================================
+          // ================================================
 	  // ======================== COIN SPECIFIC SETTINGS 
 	  // ================================================
 	  // Similar to the Global Settings above, you may add any additional parameters
@@ -420,10 +420,10 @@
 	  //
 	  // That being said, it is possible to get creative and alter the settings
 	  // themselves, so that more sophisticated SMS settings can be applied to each
-      // in a consistent way. This is where the true power of PTM lies -- in it's ability
+          // in a consistent way. This is where the true power of PTM lies -- in it's ability
 	  // to completely customize all settings on a per-coin basis.  However this 
 	  // would be for more advanced users who are comfortable taking such risks.
-      //	  
+          //	  
 	  "SingleMarketSettings": [
 	  //
 	  //---------------------
