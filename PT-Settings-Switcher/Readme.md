@@ -41,7 +41,7 @@ In your Profit Trailer webpage monitor, click "Config" in the top right corner
 - Moon (extreme upward moving market)
 
 ### 4. Download your settings files
-Select the settings dropdown in the center, and choose your settings you want to download.  __It is ok to use the same settings for multiple cases__. Click the "DOWNLOAD" button to the right -- __NOT "SAVE"__ -- and all three files (pairs, dca, and indicators) will be downloaded to your browsers default download folder.
+Select the settings dropdown in the center, and choose your settings you want to download.  __It is ok to use the same settings for multiple market conditions__. Click the "DOWNLOAD" button to the right -- __NOT "SAVE"__ -- and all three files (pairs, dca, and indicators) will be downloaded to your browsers default download folder.
 
 ### 5. Change the extensions of all downloaded files from ".txt" to ".properties"
 You should now have three files for all six cases listed in #3, with the names of your settings.  e.g., ElLoco-PAIRS.properties, ElLoco-DCA.properties, ElLoco-INDICATOR.properties.  
