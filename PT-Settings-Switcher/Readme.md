@@ -49,7 +49,7 @@ You should now have three files for all six cases listed in #3, with the names o
 ### 6. Create the folders listed in step #3
 Once you have downloaded all the files you need, move them into the appropriate folders according to their function.  If you choose to use slightly different names for your folders, that's fine -- but __at least one of your folders MUST BE NAMED DEFAULT__ or PTMagic will close with an error.  
 
-If you decide to use the same settings for multiple market scenarios, for example ElLoco will perform well in both a Bear and Tanking market, simply make a duplicate of the set for the second folder.
+If you decide to use the same settings for multiple market scenarios, for example if ElGringoLoco will perform well in both a Bear and Tanking market, simply make a duplicate of the set for the second folder.
 
 ### 7. Find your PTMagic installation, and open the "PTMagic" folder
 Drop all six folders, each with the three settings files, into the folder named "_ presets"
@@ -57,7 +57,7 @@ Drop all six folders, each with the three settings files, into the folder named 
 ### 8. Configure PTMagic
 Carefully follow the instructions found here:  https://github.com/PTMagicians/PT-Magic/wiki/Setup-Guide, but __SKIP STEPS 5, 6 and 9__ -- we will take care of those steps now.
 
-### 9. Download the settings.analyzer.json on this github repository
+### 9. Download the settings.analyzer.json
 Download the latest release of the settings.analyzer.json from above, and place it in your PTMagic folder.
 
 ### 10. Enter the names of your settings
