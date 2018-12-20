@@ -44,7 +44,7 @@ In your Profit Trailer webpage monitor, click "Config" in the top right corner
 Select the settings dropdown in the center, and choose your settings you want to download.  __It is ok to use the same settings for multiple market conditions__. Click the "DOWNLOAD" button to the right -- __NOT "SAVE"__ -- and all three files (pairs, dca, and indicators) will be downloaded to your browsers default download folder.
 
 ### 5. Change the extensions of all downloaded files from ".txt" to ".properties"
-You should now have three files for all six cases listed in #3, with the names of your settings.  e.g., ElLoco-PAIRS.properties, ElLoco-DCA.properties, ElLoco-INDICATOR.properties.  
+You should now have three files for all six cases listed in #3, with the names of your settings.  e.g., ElGringoLoco-PAIRS.properties, ElGringoLoco-DCA.properties, ElGringoLoco-INDICATOR.properties.  
 
 ### 6. Create the folders listed in step #3
 Once you have downloaded all the files you need, move them into the appropriate folders according to their function.  If you choose to use slightly different names for your folders, that's fine -- but __at least one of your folders MUST BE NAMED DEFAULT__ or PTMagic will close with an error.  
