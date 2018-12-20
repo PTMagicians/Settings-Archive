@@ -36,7 +36,7 @@ In your Profit Trailer webpage monitor, click "Config" in the top right corner
 - Tanking (extreme downward moving market) 
 - Bear
 - Sideways (low volatility)
-- Default (small, steady uptrend)
+- Default (higher volatility, slight uptrend)
 - Bull
 - Moon (extreme upward moving market)
 
