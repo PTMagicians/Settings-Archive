@@ -1,14 +1,14 @@
 # Profit Trailer Settings-Switcher
-A walk-through for using PTMagic to switch between different Profit Trailer strategies, based on changing market trends.
+A walk-through for using PTMagic to switch between Profit Trailer strategies, based on changing market trends.
 
 
 ## Requirements: 
- - Copies of your your custom settings from Profit Trailer v2
+ - Copies of the settings you are using from Profit Trailer
  - PTMagic v2
 ---
 
 ### Profit Trailer Settings
-Most Profit Trailer users already have a collection of settings they switch between depending on changing market conditions.  You will need to __download copies of the PAIRS, DCA, and INDICATORS files__ for all of the different settings you use. 
+Most Profit Trailer users already have a few settings they switch between depending on changing market conditions.  You will need to __download copies of the PAIRS, DCA, and INDICATORS files__ for all of the different settings you use. 
 
 To avoid complications, it's best if you __DO NOT use settings that incorporate Positive DCA or Pending Orders__ without exentsive testing. Quickly changing between settings that use those techniques and those that don't could lead to unforseen and unintended side-effects. Only use settings that are based on standard buy and sell techniques, so they can be quickly switched according to changing market conditions, without accidentally opening yourself up to unintended risks.
 
