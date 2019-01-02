@@ -1,5 +1,5 @@
 # Profit Trailer Settings-Switcher
-A walk-through to use PTMagic to help you switch between different Profit Trailer settings, based on changing market trends. 
+A walk-through to use PTMagic to help you switch between completely different Profit Trailer settings, based on changing market trends. 
 
 
 ## Requirements: 
