@@ -47,9 +47,9 @@ Select the settings dropdown in the center, and choose your settings you want to
 You should now have three files for all six cases listed in #3, with the names of your settings.  e.g., ElGringoLoco-PAIRS.properties, ElGringoLoco-DCA.properties, ElGringoLoco-INDICATOR.properties.  
 
 ### 6. Create the folders listed in step #3
-Once you have downloaded all the files you need, move them into the appropriate folders according to their function.  If you choose to use slightly different names for your folders, that's fine -- but __at least one of your folders MUST BE NAMED DEFAULT__ or PTMagic will close with an error.  
+Once you have downloaded all the files you need, create six folders: Tanking, Bear, Sideways, Default, Bull, Moon.  Move the settings pairs/dca/indicators files into the appropriate folders.  If you choose to use slightly different names for your folders, that's fine -- but __at least one of your folders MUST BE NAMED DEFAULT__ or PTMagic will close with an error.  
 
-If you decide to use the same settings for multiple market scenarios, for example if ElGringoLoco will perform well in both a Bear and Tanking market, simply make a duplicate of the set for the second folder.
+If you decide to use the same settings for multiple market scenarios, for example if ElGringoLoco will perform well in both a Bear and Tanking market, simply make a duplicate of the files for the second folder.
 
 ### 7. Find your PTMagic installation, and open the "PTMagic" folder
 Drop all six folders, each with the three settings files, into the folder named "_ presets"
