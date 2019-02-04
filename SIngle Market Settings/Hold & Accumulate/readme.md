@@ -11,15 +11,15 @@ This should be added to the top of your SMS settings, above any other SMS settin
 
 
 
-	//---------------------
-	//   HOLD & ACCUMULATE
-	//---------------------
-	{
-	"SettingName": "Hold",
-	"TriggerConnection": "OR",
-	"StopProcessWhenTriggered": true,
-	"AllowedMarkets": "xxxBTC",
-	"Triggers": [
+        //---------------------
+        //   HOLD & ACCUMULATE
+        //---------------------
+        {
+        "SettingName": "Hold",
+        "TriggerConnection": "OR",
+        "StopProcessWhenTriggered": true,
+        "AllowedMarkets": "xxxBTC",
+        "Triggers": [
          {
             "MarketTrendName": "24h",
 		        "MarketTrendRelation": "Absolute",
