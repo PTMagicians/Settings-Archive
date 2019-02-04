@@ -11,7 +11,7 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 
 This should be added to the top of your SMS settings, above any other SMS settings that have "StopProcessWhenTriggered": true 
 
-
+````
    //---------------------
    //   MORE PROFIT
    //---------------------
@@ -38,4 +38,4 @@ This should be added to the top of your SMS settings, above any other SMS settin
           "DEFAULT_DCA_trailing_profit_OFFSETPERCENT": 200, // adjust this to suit your settings
      },
    },
-     
+  ````   
