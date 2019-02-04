@@ -20,21 +20,21 @@ This should be added to the top of your SMS settings, above any other SMS settin
         "StopProcessWhenTriggered": true,
         "AllowedMarkets": "xxxBTC",
         "Triggers": [
-         {
-            "MarketTrendName": "24h",
-		        "MarketTrendRelation": "Absolute",
-            "MaxChange": 50000.0
-         }
+        {
+                "MarketTrendName": "24h",
+                "MarketTrendRelation": "Absolute",
+                "MaxChange": 50000.0
+        }
         ],
         "PairsProperties": {
-		       "DEFAULT_A_sell_value": 50000,
-		       "DEFAULT_take_profit_wait_time_OFFSETPERCENT": 10000,  // to over-ride any take profit settings
-		       "DEFAULT_take_profit_reset_percentage_move": 0.001
-           "DEFAULT_DCA_enabled": "true",  //  "false" if you don't want to accumulate more of these coins
+                "DEFAULT_A_sell_value": 50000,
+                "DEFAULT_take_profit_wait_time_OFFSETPERCENT": 10000,  // to over-ride any take profit settings
+                "DEFAULT_take_profit_reset_percentage_move": 0.001
+                "DEFAULT_DCA_enabled": "true",  //  "false" if you don't want to accumulate more of these coins
         },
         "DCAProperties": {
-		       "DEFAULT_DCA_A_sell_value": 50000,
-		       "DEFAULT_DCA_take_profit_wait_time_OFFSETPERCENT": 10000,
-		       "DEFAULT_DCA_take_profit_reset_percentage_move": 0.001
-		    }
-	  },
+                "DEFAULT_DCA_A_sell_value": 50000,
+                "DEFAULT_DCA_take_profit_wait_time_OFFSETPERCENT": 10000,
+                "DEFAULT_DCA_take_profit_reset_percentage_move": 0.001
+        }
+      },
