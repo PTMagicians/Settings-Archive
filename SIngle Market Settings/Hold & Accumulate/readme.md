@@ -7,16 +7,17 @@ The trigger is designed to be true for ANY coin you add to the **"AllowedMarkets
 
 Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so you must always specify your base currency when using "AllowedMarkets" or "IgnoredMarkets".  [See the wiki](https://github.com/PTMagicians/PTMagic/wiki/settings.analyzer#allowedmarkets) for more information.
 
+This should be added to the top of your SMS settings, above any other SMS settings that have "StopProcessWhenTriggered": true 
 
 
-    //---------------------
-	  //   HOLD & ACCUMULATE
-	  //---------------------
-	  {
+      //---------------------
+      //   HOLD & ACCUMULATE
+      //---------------------
+	{
         "SettingName": "Hold",
         "TriggerConnection": "OR",
         "StopProcessWhenTriggered": true,
-		    "AllowedMarkets": "xxxBTC",
+	"AllowedMarkets": "xxxBTC",
         "Triggers": [
          {
             "MarketTrendName": "24h",
