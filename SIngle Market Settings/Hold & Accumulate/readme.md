@@ -17,7 +17,7 @@ This should be added to the top of your SMS settings, above any other SMS settin
 	{
         "SettingName": "Hold",
         "TriggerConnection": "OR",
-        "StopProcessWhenTriggered": true,
+	"StopProcessWhenTriggered": true,
 	"AllowedMarkets": "xxxBTC",
         "Triggers": [
          {
