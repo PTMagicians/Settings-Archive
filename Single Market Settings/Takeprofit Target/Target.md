@@ -9,33 +9,35 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 
 **This should be added to the top of your SMS settings, above any other SMS settings that have "StopProcessWhenTriggered": true**
 
-
+````
         //---------------------
 	//   Target			
 	//---------------------
 	{
-        "SettingName": "Target-1",
+        "SettingName": "Target",
         "TriggerConnection": "OR",
         "StopProcessWhenTriggered": false,
-		    "AllowedMarkets": "xxxBTC",
-		    "Triggers": [
+		"AllowedMarkets": "xxxBTC",
+		"Triggers": [
          {
-            "MarketTrendName": "1h",
-		        "MarketTrendRelation": "Absolute",
-            "MaxChange": 500.0
+        "MarketTrendName": "1h",
+		"MarketTrendRelation": "Absolute",
+        "MaxChange": 500.0
          }
         ],
-        "PairsProperties": {},
-        "DCAProperties": {
-		        "DEFAULT_DCA_A_buy_value": -9999, // Disable DCA
-		        "DEFAULT_DCA_take_profit_safety_arm": 9999, // Disable TakeProfit Safety
-		        "DEFAULT_DCA_take_profit_safety_fire": 9998, // Disable TakeProfit Safety
-		        "DEFAULT_DCA_take_profit_percentage": 9999, // Disable TakeProfit Wait
-		        "DEFAULT_DCA_trailing_stop_loss_trigger_arm": 9999, // Disable Trailing Stop
-		        "DEFAULT_DCA_trailing_stop_loss_trigger": 9998, // Disable Trailing Stop
-		        //
-		        "DEFAULT_DCA_A_sell_value": 7, // Change "A" to match your EMAGAIN strategy
-		        "DEFAULT_DCA_trailing_profit": 1.5, //  Adjust to suit your needs
-		        "DEFAULT_DCA_trailing_profit_type": "DEFAULT",
-		     }
-      },
+        "PairsProperties": {
+		"DEFAULT_DCA_enabled": "false", // Disable DCA
+		"DEFAULT_A_buy_value": -9999, // Disable DCA
+		"DEFAULT_take_profit_safety_arm": 9999, // Disable TakeProfit Safety
+		"DEFAULT_take_profit_safety_fire": 9998, // Disable TakeProfit Safety
+		"DEFAULT_take_profit_percentage": 9999, // Disable TakeProfit Wait
+		"DEFAULT_trailing_stop_loss_trigger_arm": 9999, // Disable Trailing Stop
+		"DEFAULT_trailing_stop_loss_trigger": 9998, // Disable Trailing Stop
+		//
+		"DEFAULT_A_sell_value": 7, // Change "A" to match your EMAGAIN strategy
+		"DEFAULT_trailing_profit": 1.5, //  Adjust to suit your needs
+		"DEFAULT_trailing_profit_type": "DEFAULT"
+	},
+        "DCAProperties": {}
+        },
+````
