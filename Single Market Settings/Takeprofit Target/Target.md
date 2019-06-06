@@ -10,10 +10,10 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 This should be added to the top of your SMS settings, above any other SMS settings that have "StopProcessWhenTriggered": true 
 
 
-    //---------------------
-	  //   Target			
-	  //---------------------
-	  {
+        //---------------------
+	//   Target			
+	//---------------------
+	{
         "SettingName": "Target-1",
         "TriggerConnection": "OR",
         "StopProcessWhenTriggered": false,
