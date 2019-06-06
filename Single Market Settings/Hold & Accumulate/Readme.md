@@ -33,9 +33,12 @@ This should be added to the top of your SMS settings, above any other SMS settin
                 "DEFAULT_DCA_enabled": "true",  //  "false" if you don't want to accumulate more of these coins
         },
         "DCAProperties": {
-                "DEFAULT_DCA_A_sell_value": 50000, // you must change the letter A to match your EMAGAIN setting
-                "DEFAULT_DCA_take_profit_wait_time_OFFSETPERCENT": 10000,
-                "DEFAULT_DCA_take_profit_reset_percentage_move": 0.001
+                "DEFAULT_DCA_A_sell_value": 9999, // you must change the letter A to match your EMAGAIN setting
+                "DEFAULT_DCA_take_profit_wait_time": 9999,  // Disable Take Profit
+		    "DEFAULT_DCA_take_profit_safety_arm": 9999, // Disable Take Profit Safety
+		    "DEFAULT_DCA_take_profit_safety_fire": 9998, // Disable Take Profit Safety
+		    "DEFAULT_DCA_trailing_stop_loss_trigger_arm": 9999, // Disable Trailing Stop
+		    "DEFAULT_DCA_trailing_stop_loss_trigger": 9998, // Disable Trailing Stop
         }
       },
 ````
