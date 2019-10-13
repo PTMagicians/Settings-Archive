@@ -27,8 +27,8 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 		// Your custom settings for this group.
 	},
 	"DCAProperties": {
-    // Your custom settings for this group.
-  }
+                // Your custom settings for this group.
+        }
 	},
   
   //---------------------
@@ -50,7 +50,7 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 		// Your custom settings for this group.
 	},
 	"DCAProperties": {
-    // Your custom settings for this group.
-  }
+               // Your custom settings for this group.
+        }
 	},
   ````
