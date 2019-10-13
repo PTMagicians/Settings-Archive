@@ -33,7 +33,7 @@ Go to your **_presets folder in PTM** and add the following lines to your **INDI
 ![img](https://i.imgur.com/y1wsPn1.png)
 ![img](https://i.imgur.com/IC6uFYA.png)
 
-They don’t have to match the actual names of your PTM settings – they are just the labels you will see on the PT and PTM monitors.  
+They don’t have to exactly match the names of your PTM settings – they are just the labels you will see on the PT and PTM monitors.  
 
 Don’t forget to add the N/A label you used in your PAIRS and DCA settings.
 
