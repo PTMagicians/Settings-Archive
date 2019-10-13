@@ -38,7 +38,7 @@ They don’t have to exactly match the names of your PTM settings – they are j
 Don’t forget to add the N/A label you used in your PAIRS and DCA settings, or you will get an error in PT when no single market strategy is applied to a coin.
 
 ### 4) Edit your settings.analyzer.json file 
-Add the same labels to your PTM settings.analyzer.json file, for the appropriate GLOBAL and SMS settings.  You need to add them to both the PairsProperties AND DCAProperties sections.  This is how PTM will change the strategy labels depending on the active global and single market settings.
+Add the same labels to your **PTM settings.analyzer.json** file, for the appropriate **GLOBAL** and **SMS** settings.  You need to add them to both the **PairsProperties** AND **DCAProperties** sections.  This is how PTM will change the strategy labels depending on the active global and single market settings.
 
 ![img](https://i.imgur.com/mIaTHJP.png)
 ![img](https://i.imgur.com/4LWUDm3.png)
