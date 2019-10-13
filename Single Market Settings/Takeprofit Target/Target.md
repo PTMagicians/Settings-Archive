@@ -17,13 +17,13 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
         "SettingName": "Target",
         "TriggerConnection": "OR",
         "StopProcessWhenTriggered": false,
-		"AllowedMarkets": "xxxBTC",
-		"Triggers": [
-         {
-        "MarketTrendName": "1h",
-		"MarketTrendRelation": "Absolute",
-        "MaxChange": 500.0
-         }
+	"AllowedMarkets": "xxxBTC",
+	"Triggers": [
+             {
+             "MarketTrendName": "1h",
+	     "MarketTrendRelation": "Absolute",
+             "MaxChange": 500.0
+             }
         ],
         "PairsProperties": {
 		"DEFAULT_DCA_enabled": "false", // Disable DCA
