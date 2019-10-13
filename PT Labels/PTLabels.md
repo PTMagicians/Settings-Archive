@@ -5,7 +5,7 @@ So I came up with a nice trick to always see which PTM settings were active in t
 For example:
 ![Imgur](https://i.imgur.com/GHoJxBL.png)
 
-With only a few added lines, your PTM analyzer can add a label to each coin in throughout PT.  And you can easily toggle it off and on.
+With only a few added lines, your PTM analyzer can add a label to each coin throughout PT.  And you can easily toggle it off and on.
 
 The trick is to add a buy/sell strategy that will ALWAYS be true, and then change the labels using PTM.
 
