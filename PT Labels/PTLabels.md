@@ -11,7 +11,7 @@ The trick is to add a buy/sell strategy that will ALWAYS be true, and then chang
 
 ***
 
-### 1) Stop PTM
+### 1) Stop PTMagic
 You should stop PTM while you alter these files, to avoid any errors in PT.
 
 ### 2) Edit your PAIRS and DCA files
