@@ -1,6 +1,6 @@
 When trying to fine-tune and analyze my settings, I got tired of searching through PTM's global and sms logs to figure out what settings were active when a particular pair was bought or sold.
 
-So I came up with a nice trick to always see which PTM settings were active in the Profit Trailer Buy and Sell logs.
+So I came up with a nice trick to always see which PTM settings were active in the Profit Trailer Buy and Sell logs.  This makes tweaking your PT and PTM settings a lot easier.
 
 For example:
 ![Imgur](https://i.imgur.com/GHoJxBL.png)
