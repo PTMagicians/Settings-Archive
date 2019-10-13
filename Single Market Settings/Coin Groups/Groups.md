@@ -31,7 +31,7 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
         }
 	},
   
-  //---------------------
+        //---------------------
 	//   Group 2
 	//---------------------
 	{
