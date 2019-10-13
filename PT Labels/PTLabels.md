@@ -25,7 +25,7 @@ DCA.properties
 
 ![img](https://i.imgur.com/KJGN0pY.png)
 
-You could use **any strategy** you like, as long as it’s something you can ensure is **always true**.  I used RSI because it's easy to work with.   Notice the BUY the value is 100, and for SELL the value is 0, so they will always be true for any possible coin.
+You could use **any strategy** you like, as long as it’s something you can ensure is **always true**.  I used RSI because it's easy to work with.   Notice the BUY the value is 100, and the SELL value is 0, so they will always be true for any possible coin.
 
 ### 3) Edit your INDICATORS file  
 Go to your **_presets folder in PTM** and add the following lines to your **INDICATORS** file.  Create one labe for **Each GLOBAL and SINGLE MARKET SETTING you use in PTM**.
