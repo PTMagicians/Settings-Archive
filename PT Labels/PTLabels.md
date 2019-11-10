@@ -2,7 +2,7 @@ When trying to fine-tune and analyze my settings, I got tired of searching throu
 
 So I came up with a nice trick to always see which PTM settings were active in the Profit Trailer Buy and Sell logs.  This makes tweaking your PT and PTM settings a lot easier.
 
-For example:
+For example, this is from my PT BUY log:
 ![Imgur](https://i.imgur.com/GHoJxBL.png)
 
 With only a few added lines, your PTM analyzer can add a label to each coin throughout PT.  And you can easily toggle it off and on.
