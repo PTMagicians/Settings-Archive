@@ -1,24 +1,24 @@
 # Profit Trailer Settings-Switcher
-A walk-through for using PTMagic to switch between Profit Trailer strategies, based on changing market trends.  
+A walk-through for using PTMagic to switch between Profit Trailer configs, based on changing market trends.  
 Created December, 2018 by Hojou.
 
 
 ## Requirements: 
- - Copies of the settings you are using from Profit Trailer
+ - Copies of the configs/settings you are using from Profit Trailer
  - PTMagic v2
 ---
 
 ### Profit Trailer Settings
-Most Profit Trailer users already have a few settings they switch between depending on changing market conditions.  You will need to __download copies of the PAIRS, DCA, and INDICATORS files__ for all of the different settings you use. 
+Most Profit Trailer users already have a few config/settings they switch between depending on changing market conditions.  You will need to __download copies of the PAIRS, DCA, and INDICATORS files__ for all of the different configs/settings you use. 
 
-To avoid complications, it's best if you __DO NOT use settings that incorporate Positive DCA or Pending Orders__ as part of the trading strategy without exentsive testing. Quickly changing between settings that use those techniques and those that don't could lead to unforseen and unintended side-effects (this doesn't include **PTDefender**'s use of pending, since this isn't actually part of the trading strategy). Only use settings that are based on standard buy and sell techniques, so they can be quickly switched according to changing market conditions, without accidentally opening yourself up to unintended risks.
+To avoid complications, it's best if you __DO NOT use configs/settings that incorporate Positive DCA or Pending Orders__ as part of the trading strategy without exentsive testing. Quickly changing between settings that use those techniques and those that don't could lead to unforseen and unintended side-effects (this doesn't include **PTDefender**'s use of pending, since this isn't actually part of the trading strategy). Only use settings that are based on standard buy and sell techniques, so they can be quickly switched according to changing market conditions, without accidentally opening yourself up to unintended risks.
 
 ### PTMagic
-PTMagic will be used to automatically change between your settings.  It's a free, open-source add-on for Profit Trailer, which is designed to __automatically modify Profit Trailer's settings files based on changing market conditions__.  It's main purpose is to ensure more protection and versatility than a single strategy can provide -- by adjusting your bot's behavior in different market conditions automatically, without worrying about the when and how often to manually switch between settings.   You can read more about it here:  https://github.com/PTMagicians/PT-Magic/wiki
+PTMagic will be used to automatically change between your configs/settings.  It's a free, open-source add-on for Profit Trailer, which is designed to __automatically modify Profit Trailer's configsettings files based on changing market conditions__.  It's main purpose is to ensure more protection and versatility than a single strategy can provide -- by adjusting your bot's behavior in different market conditions automatically, without worrying about the when and how often to manually switch between settings.   You can read more about it here:  https://github.com/PTMagicians/PT-Magic/wiki
 
-__Bear trend?__  PTMagic will switch to your bear settings.  __Sideways trend?__  PTMagic will switch to your favorite sideways settings, __Serious bull trend?__  Your aggressive bull-market settings will kick in.  PTMagic will do this automatically for you 24 hours a day, seven days a week. 
+__Bear trend?__  PTMagic will switch to your bear config/settings.  __Sideways trend?__  PTMagic will switch to your favorite sideways configsettings, __Serious bull trend?__  Your aggressive bull-market configsettings will kick in.  PTMagic will do this automatically for you 24 hours a day, seven days a week. 
 
-__PTMagic does not directly buy or sell coins, or interact with your exchange in any way__.  It only __makes adjustments to your Profit Trailer settings files__, based on it's analysis of current market conditions and the behavior of individual coins.
+__PTMagic does not interact with your exchange in any way__.  It only __makes adjustments to your Profit Trailer config/settings files__, based on it's analysis of current market conditions and the behavior of individual coins.
 
 ### Caution
 After following the instructions below and getting everything set up, run your Profit Trailer bot in test mode so you can watch how things work, make any necessary adjustments, and make sure you didn't make any mistakes. Anytime you try new strategies or trading techniques, you should take your time and test your settings to ensure you aren't exposing yourself to too much risk.  Crypto markets are highly volatile -- sudden changes in market conditions can result in large losses if Profit Trailer or PTMagic are configured incorrectly.  
@@ -32,7 +32,8 @@ Extract it to location where you plan to keep it, but do not launch it or doing 
 ### 2. Launch Profit Trailer
 In your Profit Trailer webpage monitor, click "Config" in the top right corner
 
-### 3. Decide which settings files you want to use for the following market conditions:
+### 3. Decide which config/settings files you want to use for the following market conditions:
+It is ok to use the same settings for multiple market conditions. 
 
 - Tanking (extreme downward moving market) 
 - Bear
@@ -40,9 +41,10 @@ In your Profit Trailer webpage monitor, click "Config" in the top right corner
 - Default (higher volatility, slight uptrend)
 - Bull
 - Moon (extreme upward moving market)
+- (later you can add more if needed)
 
-### 4. Download your settings files
-Select the settings dropdown in the center, and choose your settings you want to download.  __It is ok to use the same settings for multiple market conditions__. Click the "DOWNLOAD" button to the right -- __NOT "SAVE"__ -- and all three files (pairs, dca, and indicators) will be downloaded to your browsers default download folder.
+### 4. Download your config/settings files
+Select the Config dropdown at the top of your Profit Trailer screen, and select "Other Configs." If you haven't already, you will need to add the public configs you want to use.  Then select the title of the active config to select the config files you want, and click the "DOWNLOAD" button to the right -- __NOT "SAVE"__ -- and all three files (pairs, dca, and indicators) will be downloaded to your browsers default download folder.
 
 ### 5. Change the extensions of all downloaded files from ".txt" to ".properties"
 You should now have three files for all six cases listed in #3, with the names of your settings.  e.g., ElGringoLoco-PAIRS.properties, ElGringoLoco-DCA.properties, ElGringoLoco-INDICATOR.properties.  
