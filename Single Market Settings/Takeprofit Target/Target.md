@@ -33,7 +33,7 @@ Unlike Profit Trailer, PTMagic doesn't know what market you are trading in, so y
 		"DEFAULT_trailing_stop_loss_trigger_arm": 9999, // Disable Trailing Stop
 		"DEFAULT_trailing_stop_loss_trigger": 9998, // Disable Trailing Stop
 		//
-		"DEFAULT_A_sell_value": 7, // This is your target percentage. (Change "A" to match your EMAGAIN strategy)
+		"DEFAULT_A_sell_value": 7, // This is your target percentage. (Change "A" to match your GAIN strategy)
 		"DEFAULT_trailing_profit": 1.5, //  Adjust to suit your needs
 		"DEFAULT_trailing_profit_type": "DEFAULT"
 	},
