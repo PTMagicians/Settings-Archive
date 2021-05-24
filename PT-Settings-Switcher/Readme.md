@@ -1,5 +1,5 @@
 ### NOTE:  
-Profit Trailer no longer provides a collection of public configs for which this tutorial was originally created.  However an archive of these settings can be found here: https://github.com/HojouFotytu/Profit-Trailer-Settings
+Profit Trailer no longer provides a collection of public configs for which this tutorial was originally created.  However an archive of these settings can be found here: https://github.com/PTdude/Profit-Trailer-Settings
 
 
 # Profit Trailer Settings-Switcher
