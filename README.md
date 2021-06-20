@@ -1,6 +1,7 @@
 # PTMagic Settings Archive
 
-A collection of miscellaneous PTMagic settings.  See also:  https://github.com/HojouFotytu/Misc-PT-Tools
+A collection of miscellaneous PTMagic settings. <br>
+See also:  https://github.com/HojouFotytu/Misc-PT-Tools
 
 ### Learn!
 The settings here have been collected from various places, and are provided __for educational purposes only!__
